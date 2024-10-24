@@ -1,0 +1,23 @@
+{
+  "name": "binaflow",
+  "version": "0.0.1",
+  "description": "Binary message exchanging via WebSocket. Using Protobuf for serialization/deserialization.",
+  "main": "src/BinaFlow.js",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "binaflow",
+    "websocket",
+    "protobuf"
+  ],
+  "scripts": {
+    "build": "protoc --js_out=import_style=commonjs,binary:src base-schema.proto"
+  },
+  "author": {
+    "name": "Anatolii Kozlov",
+    "email": "toliyansky@gmail.com"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/binaflow/binaflow-js-client"
+}
