@@ -1,6 +1,6 @@
 {
   "name": "binaflow",
-  "version": "0.0.1",
+  "version": "0.0.25",
   "description": "Binary message exchanging via WebSocket. Using Protobuf for serialization/deserialization.",
   "main": "src/BinaFlow.js",
   "files": [
@@ -19,5 +19,8 @@
     "email": "toliyansky@gmail.com"
   },
   "license": "MIT",
-  "repository": "https://github.com/binaflow/binaflow-js-client"
+  "repository": "https://github.com/binaflow/binaflow-js-client",
+  "devDependencies": {
+    "google-protobuf": "^3.21.4"
+  }
 }
