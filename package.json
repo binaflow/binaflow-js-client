@@ -1,6 +1,6 @@
 {
-  "name": "binaflow",
-  "version": "0.0.25",
+  "name": "binaflow-js-client",
+  "version": "0.1.0",
   "description": "Binary message exchanging via WebSocket. Using Protobuf for serialization/deserialization.",
   "main": "src/BinaFlow.js",
   "files": [
